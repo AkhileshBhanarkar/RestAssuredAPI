@@ -1,0 +1,77 @@
+2022-12-14 16:13:36.311 [main] INFO  - Start : Default suite
+2022-12-14 16:13:36.336 [main] INFO  - Start test : pingCheck
+2022-12-14 16:13:39.488 [main] INFO  - **** Server is running ****
+2022-12-14 16:13:39.493 [main] INFO  - success test - pingCheck
+2022-12-14 16:13:39.496 [main] INFO  - Start test : createBoard
+2022-12-14 16:13:41.403 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:41.404 [main] INFO  - Extracted name matches with given input name
+2022-12-14 16:13:41.404 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:41.406 [main] INFO  - **** Board created successfully ****
+2022-12-14 16:13:41.408 [main] INFO  - success test - createBoard
+2022-12-14 16:13:41.410 [main] INFO  - Start test : getBoard
+2022-12-14 16:13:42.309 [main] INFO  - 638edb78430957017e321a84 matches the regex code
+2022-12-14 16:13:42.309 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:42.309 [main] INFO  - Extracted ID matches with the saved ID in global variable
+2022-12-14 16:13:42.309 [main] INFO  - All the values matches with the values while creating board.
+2022-12-14 16:13:42.309 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:42.309 [main] INFO  - **** Board Fetched successfully ****
+2022-12-14 16:13:42.311 [main] INFO  - success test - getBoard
+2022-12-14 16:13:42.314 [main] INFO  - Start test : createList
+2022-12-14 16:13:42.971 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:42.971 [main] INFO  - Extracted board is matches with given input board id
+2022-12-14 16:13:42.971 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:42.972 [main] INFO  - **** List for a Board is created successfully ****
+2022-12-14 16:13:42.972 [main] INFO  - success test - createList
+2022-12-14 16:13:42.973 [main] INFO  - Start test : getList
+2022-12-14 16:13:43.554 [main] INFO  - 638edb78430957017e321a84 matches the regex code
+2022-12-14 16:13:43.554 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:43.554 [main] INFO  - Extracted list ID matches with the saved list ID in global variable
+2022-12-14 16:13:43.554 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:43.555 [main] INFO  - **** List for Board is fetched successfully ****
+2022-12-14 16:13:43.556 [main] INFO  - success test - getList
+2022-12-14 16:13:43.557 [main] INFO  - Start test : updateList
+2022-12-14 16:13:44.225 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:44.226 [main] INFO  - Updates the name of List successfully.
+2022-12-14 16:13:44.226 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:44.226 [main] INFO  - **** List for Board is updated successfully ****
+2022-12-14 16:13:44.227 [main] INFO  - success test - updateList
+2022-12-14 16:13:44.229 [main] INFO  - Start test : createCard
+2022-12-14 16:13:45.019 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:45.020 [main] INFO  - Card Id is in valid regex format
+2022-12-14 16:13:45.020 [main] INFO  - Created a new Card successfully in Board
+2022-12-14 16:13:45.020 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:45.020 [main] INFO  - **** Card for New List is created successfully ****
+2022-12-14 16:13:45.021 [main] INFO  - success test - createCard
+2022-12-14 16:13:45.022 [main] INFO  - Start test : getCard
+2022-12-14 16:13:45.621 [main] INFO  - 6399a8e0248602003011aeb4 matches the regex code
+2022-12-14 16:13:45.621 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:45.621 [main] INFO  - Newly created card id matches with the saved card id in global variable
+2022-12-14 16:13:45.621 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:45.621 [main] INFO  - **** Card for New List is fetched successfully ****
+2022-12-14 16:13:45.623 [main] INFO  - success test - getCard
+2022-12-14 16:13:45.624 [main] INFO  - Start test : updateCard
+2022-12-14 16:13:46.634 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:46.634 [main] INFO  - Updates the name of card successfully.
+2022-12-14 16:13:46.634 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:46.634 [main] INFO  - **** Card for New List is updated successfully ****
+2022-12-14 16:13:46.635 [main] INFO  - success test - updateCard
+2022-12-14 16:13:46.636 [main] INFO  - Start test : deleteCard
+2022-12-14 16:13:47.574 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:47.574 [main] INFO  - Deleted a newly created card
+2022-12-14 16:13:47.574 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:47.575 [main] INFO  - **** Card for New List is deleted successfully ****
+2022-12-14 16:13:47.576 [main] INFO  - success test - deleteCard
+2022-12-14 16:13:47.576 [main] INFO  - Start test : updateBoard
+2022-12-14 16:13:49.244 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:49.244 [main] INFO  - Extracted OrganizationID matches with the saved OrganizationID in global variable
+2022-12-14 16:13:49.244 [main] INFO  - All the values matches with the values after updating board.
+2022-12-14 16:13:49.244 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:49.244 [main] INFO  - **** Board updated successfully ****
+2022-12-14 16:13:49.246 [main] INFO  - success test - updateBoard
+2022-12-14 16:13:49.247 [main] INFO  - Start test : deleteBoard
+2022-12-14 16:13:50.468 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:50.468 [main] INFO  - Deleted Board response gives null values
+2022-12-14 16:13:50.468 [main] INFO  - ------------------------------------------------
+2022-12-14 16:13:50.468 [main] INFO  - **** Board deleted successfully ****
+2022-12-14 16:13:50.470 [main] INFO  - success test - deleteBoard
+2022-12-14 16:13:50.498 [main] INFO  - End : Default suite

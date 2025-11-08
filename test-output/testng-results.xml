@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T16:13:36 IST" name="Default suite" finished-at="2022-12-14T16:13:50 IST" duration-ms="14155">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T16:13:36 IST" name="Default test" finished-at="2022-12-14T16:13:50 IST" duration-ms="14155">
+      <class name="TestAllActions.TestClass">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:36 IST" name="setup" finished-at="2022-12-14T16:13:36 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49c83262]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:36 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.pingCheck()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="pingCheck()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:36 IST" name="pingCheck" finished-at="2022-12-14T16:13:39 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pingCheck -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:39 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pingCheck status=SUCCESS method=TestClass.pingCheck()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method signature="createBoard()[pri:1, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:39 IST" name="createBoard" finished-at="2022-12-14T16:13:41 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:39 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.createBoard()[pri:1, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:41 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBoard status=SUCCESS method=TestClass.createBoard()[pri:1, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:41 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.getBoard()[pri:2, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="getBoard()[pri:2, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:41 IST" name="getBoard" finished-at="2022-12-14T16:13:42 IST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:42 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBoard status=SUCCESS method=TestClass.getBoard()[pri:2, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:42 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.createList()[pri:2, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="createList()[pri:2, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:42 IST" name="createList" finished-at="2022-12-14T16:13:42 IST" depends-on-methods="TestAllActions.TestClass.getBoard" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:42 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createList status=SUCCESS method=TestClass.createList()[pri:2, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:42 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.getList()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="getList()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:42 IST" name="getList" finished-at="2022-12-14T16:13:43 IST" depends-on-methods="TestAllActions.TestClass.createList" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getList -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:43 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getList status=SUCCESS method=TestClass.getList()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method signature="updateList()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:43 IST" name="updateList" finished-at="2022-12-14T16:13:44 IST" depends-on-methods="TestAllActions.TestClass.getList" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateList -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:43 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.updateList()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:44 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateList status=SUCCESS method=TestClass.updateList()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:44 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.createCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="createCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:44 IST" name="createCard" finished-at="2022-12-14T16:13:45 IST" depends-on-methods="TestAllActions.TestClass.updateList" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:45 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCard status=SUCCESS method=TestClass.createCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method signature="getCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:45 IST" name="getCard" finished-at="2022-12-14T16:13:45 IST" depends-on-methods="TestAllActions.TestClass.createCard" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCard -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:45 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.getCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:45 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCard status=SUCCESS method=TestClass.getCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:45 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.updateCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="updateCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:45 IST" name="updateCard" finished-at="2022-12-14T16:13:46 IST" depends-on-methods="TestAllActions.TestClass.getCard" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCard -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:46 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.deleteCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:46 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateCard status=SUCCESS method=TestClass.updateCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method signature="deleteCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:46 IST" name="deleteCard" finished-at="2022-12-14T16:13:47 IST" depends-on-methods="TestAllActions.TestClass.updateCard" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCard -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:47 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCard status=SUCCESS method=TestClass.deleteCard()[pri:0, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:47 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.updateBoard()[pri:3, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="updateBoard()[pri:3, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:47 IST" name="updateBoard" finished-at="2022-12-14T16:13:49 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBoard -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:49 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateBoard status=SUCCESS method=TestClass.updateBoard()[pri:3, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="beforeMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:49 IST" name="beforeMethodListener" finished-at="2022-12-14T16:13:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestClass.deleteBoard()[pri:4, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodListener -->
+        <test-method signature="deleteBoard()[pri:4, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:49 IST" name="deleteBoard" finished-at="2022-12-14T16:13:50 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+        <test-method is-config="true" signature="afterMethodListener(org.testng.ITestResult)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:50 IST" name="afterMethodListener" finished-at="2022-12-14T16:13:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteBoard status=SUCCESS method=TestClass.deleteBoard()[pri:4, instance:TestAllActions.TestClass@4f2613d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodListener -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:TestAllActions.TestClass@4f2613d1]" started-at="2022-12-14T16:13:50 IST" name="tearDown" finished-at="2022-12-14T16:13:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49c83262]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestAllActions.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
